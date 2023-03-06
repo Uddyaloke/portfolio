@@ -14,20 +14,18 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Uddyaloke</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I create migration factory architecture&nbsp;
+            I create migration factory architecture and assembly lines&nbsp;
             <br className="sm:block hidden"/> 
-            and assembly lines for enterprise-wide&nbsp;
+             for enterprise-wide data modernization and migration to&nbsp;
             <br className="sm:block hidden"/>
-            data modernization and migration to&nbsp;
-            <br className="sm:block hidden"/> 
-            Google Cloud Platform.
+             migration to Google Cloud Platform.
           </p>
         </div>
       </div>
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-0 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
